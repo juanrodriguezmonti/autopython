@@ -3,16 +3,13 @@ from setuptools import setup
 import autopython
 import codecs
 
-with codecs.open('README.rst', encoding='utf-8') as readme_file:
-    long_description = readme_file.read()
-
 setup(
   name = 'autopython',
   version = autopython.__version__,
   license = 'GPLv3',
 
   description = 'Autoscripting for Python 3',
-  long_description = long_description,
+  long_description='Autoscripting Python for your presentations',
 
   packages = ['autopython'],
   scripts = ['bin/autopython'],
